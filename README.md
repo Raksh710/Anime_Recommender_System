@@ -9,6 +9,9 @@ The link to the Kaggle Dataset: https://www.kaggle.com/datasets/CooperUnion/anim
 [This link could be helpful](https://analyticsindiamag.com/how-to-measure-the-success-of-a-recommendation-system/#:~:text=your%20business%20goal.-,Common%20Metrics%20Used,evaluation%20metrics%20for%20recommender%20systems.)
 
 As per the above mentioned source, getting data on CTR (Click Through Rate) we can assess the system.
+<br>
 
+<img src="Demo Pic of the final Product.jpg">
 
+<br>
 <img src="static/poster.jpg">
