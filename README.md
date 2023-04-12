@@ -1,7 +1,11 @@
 # Anime_Recommender_System
-Recommends Anime using Content based filtering and collaborative filtering (using KNN). <br>
-Overall, in this case, Content based filtering (using TFIDF Vectorizer) Outperformed Collaborative Filtering (using KNN). <br>
-Results of Content based filtering were more relevant than Collaborative filtering. <br>
+Recommends Anime using Content based filtering. <br>
+
+Built Anime Recommender System using Content-based filtering and then finding the top 10 recommendations, sorted using Weighted Hybrid technique modelled on total reviews, review sentiment and average rating. <br>
+OpenAI API was used for creating “embeddings” which was performed on string column which concatenated ‘Synopsis’ and ‘Genre’ column and on this basis, similarity was calculated using cosine similarity on the embedding vector. <br>
+The model was deployed using Salesforce Heroku. Also, built its docker image and pushed it to DockerHub
+
+
 Link to my Kaggle Notebook: https://www.kaggle.com/raksh710/content-based-filtering-sorted-by-weighted-average <br>
 The link to the Kaggle Dataset: https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database?datasetId=571 <br>
 
